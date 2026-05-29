@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
 subgraph Sources[" "]
         direction RL
@@ -25,3 +26,4 @@ Merge["Пуш отправлен пользователю"]
 Merge --> DB
 
 DB["База данных<br/>(хранит историю пушей)"]
+```
