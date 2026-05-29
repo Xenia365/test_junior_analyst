@@ -1,0 +1,54 @@
+//{
+//  "method": "GET",
+//  "url": "https://mysite.ru/partner_stores",
+//  "headers": {
+//    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+//    "Accept": "application/json",
+//    "Accept-Encoding": "gzip, deflate, br",
+//    "Accept-Language": "en-US",
+//    "User-Agent": "MySiteApp/2.5.1 (iPhone; iOS 17.4; Scale/3.0)"
+//  }
+//}
+
+{
+  "partner_stores": [
+    {
+      "id": 1,
+      "name": "METRO",
+      "delivery": {
+        "type": "closest_delivery_slot",
+        "msg": "Ближайшая доставка сегодня 21:00–23:00"
+      },
+      "url": "https://metro.ru"
+    },
+    {
+      "id": 2,
+      "name": "Ашан",
+      "delivery": {
+        "type": "closest_delivery_slot",
+        "msg": "Ближайшая доставка сегодня 18:00–20:00"
+      },
+      "url": "https://ashan.ru"
+    },
+    {
+      "id": 3,
+      "name": "ВкусВилл",
+      "delivery": {
+        "type": "fast",
+        "msg": "Быстрая доставка от 20 до 60 минут"
+      },
+      "url": "https://vkusvill.ru"
+    },
+    {
+      "id": 4,
+      "name": "ВИКТОРИЯ",
+      "delivery": {
+        "type": "closest_delivery_slot",
+        "msg": "Ближайшая доставка сегодня 17:00–19:00"
+      },
+      "url": "https://victoriya.ru"
+    }
+  ]
+}
+
+
